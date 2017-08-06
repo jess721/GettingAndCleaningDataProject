@@ -1,9 +1,8 @@
 ## Function name: run_analysis
 ## Purpose: To combine and analyze Samsung Galaxy S smartphone accelerometer
 ##          data from tests
-## Parameters:  (Req) - 
-##           (Req) - 
-## Returns: 
+## Parameters:  None
+## Returns: A tidy dataset in file dataSetOutput.txt in your working directory
 run_analysis <- function() {
     ##load necessary packages
     library(dplyr)
